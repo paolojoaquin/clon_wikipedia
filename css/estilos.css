@@ -1,0 +1,295 @@
+*{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin-top: 4.5rem;
+    text-align: center;
+}
+
+main .main-logo{
+    margin-bottom: 0.5rem;
+    position: sticky;
+}
+
+main .links .links-logo{
+    margin-top: 8.5rem;
+}
+
+main .links a > strong{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .links span{
+    font-size: 1.3rem;
+}
+
+main .links a{
+    text-decoration: none;
+    color: #36c;
+}
+
+main .links ul{
+    list-style: none;
+}
+
+main .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .links .links-left{
+    margin-right: 3.5rem;
+}
+
+main .links .links-right{
+    margin-left: 3.5rem;
+}
+
+main .links li{
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ESTILOS PARA LINKS */
+main .links .links-left .es{
+    position: sticky;
+    width: 100%;
+    margin-left: 50%;
+}
+
+main .links .links-left .pol{
+    position: sticky;
+    width: 100%;
+    margin-left: 50%;
+}
+
+main .links .links-right .en{
+    position: sticky;
+    width: 100%;
+    margin-left: -50%;
+}
+
+main .links .links-right .pr{
+    position: sticky;
+    width: 100%;
+    margin-left: -50%;
+}
+
+main .main-input{
+    width: 43rem;
+    margin: 0 auto;
+    margin-bottom:3.5rem;
+}
+
+main .main-input .main-input-container{
+    width: 450px;
+    border-radius: 0.1rem;
+    border: 1px solid #a2a9b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+main .main-input input{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+
+
+
+main .main-input-container .select-container{
+    margin-right: 0.5rem;
+}
+
+main .main-input-container .select-container select{
+    border: none;
+    outline: none;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none; 
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+main .main-button{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items:center;
+    font-size: 1.3rem;
+}
+main .main-input .main-button .main-button-container button{
+    width: 25rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1%;
+}
+main .main-input .main-button .main-button-container img{
+    width: 2rem;
+    height: 2rem;
+}
+main .main-input .main-button .main-button-container strong{
+    font-size: 1.3rem;
+    color: #36c;
+}
+
+main .main-input .main-button .left{
+    width: 60%;
+    margin-left: 5rem;
+}
+
+main .main-input .main-button hr{
+    width: 60%;
+}
+main .divider{
+    margin: 0 1.5rem;
+}
+
+main .main-links .main-links-item p,strong{
+    font-size: 1.3rem;
+}
+
+main .main-links{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items:center;
+    font-size: 1.3rem;
+}
+
+main .main-links .main-links-item img{
+    width: 6rem;
+}
+
+main .main-links .main-links-item li{
+    width: 35rem;
+    text-align: initial;
+    margin-left: 3rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+main .main-links .main-links-item .bloque{
+    background-color: #f8f9fa;
+
+}
+
+main .main-links .main-links-item .bloque-texto p{
+    margin-left: 1rem;
+}
+main .main-links .main-links-item .bloque .container-item{
+    display: flex;
+    flex-direction: row;
+}
+
+main .main-links .main-links-item .bloque .container-item img{
+    width: 4rem;
+    height: 4rem;
+}
+
+main .main-links .main-links-item .bloque .container-item .text-container{
+    margin-left: 2rem;
+}
+
+main .main-links .main-links-item .bloque .container-item .link-stores{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .main-links .main-links-item .bloque .container-item .link-stores img{
+    width: 11rem;
+    height: 5rem;
+}
+main .main-links .main-links-item .bloque .container-item .link-stores .logo-play{
+    width: 12.5rem;
+    margin-bottom: -0.7rem;
+}
+/* DIV */
+
+
+main .main-links .links-list{
+    width: 35rem;
+    text-align: initial;
+    margin-left: -3rem;
+    padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+}
+main .main-links .links-list li img{
+    width: 4rem;
+    height: 4rem;
+}
+main .main-links .links-list ul{
+    list-style: none;
+}
+
+main .main-links .links-list li{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 2.5rem 0;
+}
+
+main .main-links .links-list li .text-container p{
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+}
+
+main .main-links .links-list li .text-container .text-title{
+    color: #36c;
+}
+
+footer .footer-container p{
+    font-size:1.3rem;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+footer .footer-container .blue{
+    color: #36c;
+}
+
+footer .footer-container .point:after{
+    content: "\2022";
+    display: inline-block;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: inherit;
+    margin-left: 8px;
+    margin-left: .8rem;
+    margin-right: 5px;
+    margin-right: .5rem;
+}
